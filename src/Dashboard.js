@@ -184,7 +184,7 @@ export default function Dashboard() {
 				<Container maxWidth="lg" className={classes.container}>
 					<Grid container spacing={3} justify="center" alignItems="center">
 						{/* Recent Orders */}
-						<Grid item xs={10}>
+						<Grid item xs={9}>
 							<Paper className={classes.paper}>
 								<Orders />
 							</Paper>
